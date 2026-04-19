@@ -212,7 +212,7 @@ async def start_handler(message: Message):
         user_images[user_id] = []
 
     await message.answer(
-        "Salom.\nRasmlar yuboring, keyin 📄 PDF qilish tugmasini bosing.",
+        "Assalamu alaykum. \nRasmlar yuboring, keyin 📄 PDF qilish tugmasini bosing.",
         reply_markup=main_keyboard
     )
 
