@@ -10,8 +10,8 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, FSInputFile
 from aiogram.filters import CommandStart, Command
 
-BOT_TOKEN = "8627695155:AAH9bbugKITYKIUD4goKiRylgoq9wbrIk5o"
-ADMIN_ID = 5471487688  # Admin Telegram ID
+BOT_TOKEN = "8210818313:AAHGVCdY7_BIHUSsgPi9ZF4QlMfKbyMuuGk"
+ADMIN_ID = 5471487688  # O'zingning Telegram ID'ingni yoz
 
 BASE_DIR = Path("data")
 UPLOADS_DIR = BASE_DIR / "uploads"
