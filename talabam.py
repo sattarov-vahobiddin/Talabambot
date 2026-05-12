@@ -230,7 +230,7 @@ async def clear_handler(message: Message):
         user_images[user_id] = []
 
     cleanup_user_files(user_id)
-    await message.answer("Barcha rasmlar tozalandi.", reply_markup=main_keyboard)
+    await message.answer("Barcha rasmlar tozalandi..", reply_markup=main_keyboard)
 
 
 @dp.message(F.photo)
